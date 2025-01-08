@@ -27,7 +27,7 @@ For API with UI, head to `http://localhost:8000/docs/`.
 
 ## Usage
 
-The GeoLocation model holds data for a web address and this data consists of: latitude, longitude, country, city, and region.
+The GeoLocation model holds data for a web address and this data consists of: latitude, longitude, country, city, and zip code.
 
 The API has 4 endpoints:
 
@@ -37,3 +37,11 @@ The API has 4 endpoints:
 4. POST `/geolocation/` - Create a new geolocation data by providing a web address.
 
 This demo is populated with a small fixture of test data found in test_data.json.
+
+## Features
+
+Based on the above list of endpoints, the app can list all web addresses, show details of a web address, delete web address from the database and add new address.
+
+Additionally, when adding new address, it is being validated with Django URL Validator. Also, the app does not allow duplicated web addresses in the database.
+The duplicates are checked based on a normalized web address. Normalization removes protocol prefix and eventually "www." part. 
+
