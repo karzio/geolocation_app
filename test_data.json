@@ -1,0 +1,50 @@
+[
+  {
+    "model": "geolocation.geolocation",
+    "pk": 1,
+    "fields": {
+      "latitude": 40.7589111328125,
+      "longitude": -73.97901916503906,
+      "country": "United States",
+      "city": "Manhattan",
+      "zip": "10020",
+      "web_address": "example.com"
+    }
+  },
+  {
+    "model": "geolocation.geolocation",
+    "pk": 2,
+    "fields": {
+      "latitude": 40.7589111328125,
+      "longitude": -73.97901916503906,
+      "country": "United States",
+      "city": "Manhattan",
+      "zip": "10020",
+      "web_address": "93.184.215.14"
+    }
+  },
+  {
+    "model": "geolocation.geolocation",
+    "pk": 3,
+    "fields":  {
+      "latitude": 37.76784896850586,
+      "longitude": -122.39286041259766,
+      "country": "United States",
+      "city": "San Francisco",
+      "zip": "94107",
+      "web_address": "example2.com"
+    }
+  },
+  {
+    "model": "geolocation.geolocation",
+    "pk": 4,
+    "fields": {
+      "latitude": 40.738731384277344,
+      "longitude": -74.19452667236328,
+      "country": "United States",
+      "city": "Newark",
+      "zip": "07103",
+      "web_address": "ipstack.com"
+    }
+  }
+]
